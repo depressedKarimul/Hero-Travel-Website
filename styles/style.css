@@ -1,5 +1,6 @@
 :root{
   --primary-color:#FFF
+  
 }
 /* shared styles */
 .shared-tilte{
@@ -30,8 +31,20 @@ font-weight: 400;
 line-height: 26px; /* 162.5% */
 
 }
+.cards-title{
+color: var(--primary-color);
+font-size: 28px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
 
+}
 
+.cards-div{
+  display: flex;
+justify-content: center;
+align-items: center;
+}
 
 body{
   padding-left: 135px;
@@ -160,8 +173,87 @@ border-radius: 16px;
 background: url(<path-to-image>) lightgray 50% / cover no-repeat;
 }
 
+/* Main part-II */
+.choose-your-destination-title{
+text-align: center;
+}
+.choose-your-destination-description{
+  text-align: center;
+margin-top: 24px;
+margin-bottom: 48px;
+}
+.Maldives,.Indonesia,.bangladesh, .bandarban{
+  height: 300px;
+}
+.Maldives{
+  border-radius: 16px;
+background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 5.png') lightgray 50% / cover no-repeat;
 
 
+}
+
+.Indonesia{
+  border-radius: 16px;
+background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 8.png') lightgray 50% / cover no-repeat;
+ 
+}
+
+.broader-Southeast-Asian-region{
+  display: grid;
+  grid-template-columns: repeat(2,573px);
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+
+.Srilanka, .NorthAmerica, .Kashmir{
+  height: 286px;
+}
+.Srilanka{
+
+  border-radius: 16px;
+background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(/Images/Rectangle\ 6.png) lightgray 50% / cover no-repeat;
+
+}
+.NorthAmerica{
+
+  border-radius: 16px;
+background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 7.png') lightgray 50% / cover no-repeat;
+
+}
+.Kashmir{
+ 
+  border-radius: 16px;
+background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 9.png') lightgray 50% / cover no-repeat;
+
+}
+.Srilanka-NorthAmerica-Kashmir{
+  display: grid;
+  grid-template-columns: 374px  474px  274px;
+  gap: 24px;
+
+  margin-bottom: 24px;
+  
+}
+
+.bangladesh{
+  border-radius: 16px;
+background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 11.png') lightgray 50% / cover no-repeat;
+}
+.bandarban{
+  border-radius: 16px;
+background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 10.png') lightgray 50% / cover no-repeat;
+
+}
+
+.Bangladesh-Bandarban{
+  display: grid;
+  grid-template-columns: 473px 673px;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+/* Responsive */
 
 @media screen and (max-width: 570px) {
   body{
