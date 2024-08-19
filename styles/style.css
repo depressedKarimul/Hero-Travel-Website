@@ -1,6 +1,38 @@
 :root{
   --primary-color:#FFF
 }
+/* shared styles */
+.shared-tilte{
+  color: #131318;
+text-align: left;
+
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+.shared-descriptoin{
+  color: rgba(19, 19, 24, 0.70);
+text-align: left;
+
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+.shared-descriptoin-II{
+color: #5A5A5D;
+
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+
+}
+
+
+
 body{
   padding-left: 135px;
   padding-right: 135px;
@@ -66,6 +98,8 @@ font-weight: 400;
 line-height: normal;
 }
 
+
+
 .button-primary{
   margin-top: 50px;
   margin-right: 24px;
@@ -82,26 +116,59 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
-
 .button-icon{
   width: 24px;
 height: 24px;
 }
 
+/* Main part-I */
+.main-part-I{
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  gap: 100px;
+}
+.button-primary2{
+ 
+  margin-top: 32px;
+  width: 174px;
+height: 52px;
+border-radius: 8px;
+background: #FF5400;
+color: #FFF;
+
+text-align: center;
+
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
 
 
 
+.our-popular-tours-description, .our-popular-tours-list, .our-popular-tours-description-II{
+  margin-top: 24px;
+}
 
+.everest{
+  width: 540px;
+height: 550px;
+flex-shrink: 0;
 
-
-
+border-radius: 16px;
+background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
 
 
 
 
 @media screen and (max-width: 570px) {
+  body{
+    padding: 0;
+  }
   .navbar-brand {
-    font-size: 18px;
+    font-size: 10px;
   }
 
   .navbar-toggler {
