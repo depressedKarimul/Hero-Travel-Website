@@ -1,6 +1,7 @@
 :root{
   --primary-color:#FFF
   
+  
 }
 /* shared styles */
 .shared-tilte{
@@ -21,6 +22,14 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 26px; /* 162.5% */
+}
+.shared-tilte-II{
+  color: #131318;
+
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
 }
 .shared-descriptoin-II{
 color: #5A5A5D;
@@ -46,6 +55,17 @@ justify-content: center;
 align-items: center;
 }
 
+
+.shared-images{
+  width: 64px;
+height: 64px;
+}
+.hotels-img{
+  margin-bottom: 32px;
+}
+.hotels-title{
+  margin-bottom: 16px;
+}
 body{
   padding-left: 135px;
   padding-right: 135px;
@@ -212,7 +232,7 @@ background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.
 .Srilanka{
 
   border-radius: 16px;
-background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(/Images/Rectangle\ 6.png) lightgray 50% / cover no-repeat;
+background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 6.png') lightgray 50% / cover no-repeat;
 
 }
 .NorthAmerica{
@@ -250,8 +270,60 @@ background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.
   display: grid;
   grid-template-columns: 473px 673px;
   gap: 24px;
+  
+}
+
+.why-choose-us{
+  margin-top: 100px;
+ 
+}
+.why-choose-us-title,.why-choose-us-description{
+  text-align: center;
+}
+.why-choose-us-description{
+  margin-top: 24px;
+}
+
+
+
+/* Main part-III */
+.handpicked-hotels{
+  padding: 32px 55px 32px 32px;
+  height: 284px;
+  border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+}
+
+.world-Class-Service{
+  padding: 32px 55px 32px 32px;
+  height: 284px;
+  border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+}
+.cards-II-part-I{
+  display: grid;
+  grid-template-columns: 573px 573px;
+  gap: 24px;
   margin-bottom: 24px;
 }
+.Best-Price-Guarantee{
+  padding: 32px 55px 32px 32px;
+  height: 284px;
+  width: 573px;
+  border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+}
+.cards-II-part-II{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+
+}
+
+
 
 /* Responsive */
 
