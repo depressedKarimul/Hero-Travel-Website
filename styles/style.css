@@ -72,6 +72,14 @@ body{
   padding-top: 52px;
   font-family: Mulish;
 }
+.shared-card-nav-text{
+  color: #5A5A5D;
+
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
 
 /* Heading style */
 
@@ -178,7 +186,23 @@ font-weight: 700;
 line-height: normal;
 }
 
+.button-primary3{
+ 
 
+  margin-bottom: 50px;
+  width: 174px;
+height: 52px;
+border-radius: 8px;
+background: #FF5400;
+color: #FFF;
+
+text-align: center;
+
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
 
 .our-popular-tours-description, .our-popular-tours-list, .our-popular-tours-description-II{
   margin-top: 24px;
@@ -323,7 +347,72 @@ background: rgba(233, 68, 68, 0.05);
 
 }
 
+.Deals-and-Discounts-description, .Deals-and-Discounts-title{
+  text-align: center;
+}
+.Deals-and-Discounts-description{
+  margin-top: 24px
+}
 
+.Tour-To-Satorini-div-I{
+padding: 52px 77px 50px 50px;
+height: 389px;
+border-radius: 16px;
+border: 2px solid #FFF;
+background: rgba(255, 255, 255, 0.80);
+backdrop-filter: blur(2.5px);
+
+}
+
+.Tour-To-Satorini-div-I-nav-bar{
+  display: flex;
+  
+}
+.shared-card-nav-text{
+  margin-right: 24px;
+  margin-bottom: 24px;
+}
+
+.Tour-To-Satorini-I{
+  width: 1170px;
+height: 500px;
+  border-radius: 16px;
+background: url('../Images/Group\ 39.png') lightgray 50% / cover no-repeat;
+background-size: cover;
+}
+
+.Tour-To-Satorini-II{
+  width: 1170px;
+height: 500px;
+  border-radius: 16px;
+background: url('../Images/Group\ 39.png') lightgray 50% / cover no-repeat;
+background-size: cover;
+}
+
+.Tour-To-Satorini-I{
+  display: grid;
+  grid-template-columns: 1fr 579px;
+  padding: 56px 56px 55px 535px;
+
+  margin-bottom: 24px;
+}
+.Tour-To-Satorini-II{
+  display: grid;
+  grid-template-columns: 579px 1fr;
+  padding: 56px 535px 56px 56px;
+
+  margin-bottom: 24px;
+}
+
+.Tour-To-Satorini-div-I-phone{
+  margin-top: 16px;
+  color: #FF5400;
+
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
 
 /* Responsive */
 
