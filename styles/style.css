@@ -451,6 +451,9 @@ line-height: 26px;
   font-weight: 700;
   line-height: 36px;
   text-align: center;
+  padding-top: 176px;
+  padding-left: 167px;
+  padding-right: 167px;
 }
 
 .Watch-Our-Mountain-in-Bangladesh{
@@ -460,11 +463,35 @@ border-radius: 16px;
 
 background-image: url('../Images/Group\ 40089.png');
 background-size: cover;
-display: flex;
-justify-content: center;
-align-items: center;
+
+}
+.vide-player{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 111px;
+  padding-left: 24px;
+  padding-right: 24px;
+
+}
+.vide-player-img{
+  margin-right: 16px;
+  width: 24px;
+height: 24px;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
 }
 
+.vide-player-horizontal-line{
+  width: 562px;
+height: 4px;
+flex-shrink: 0;
+border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+
+margin-left: 24px;
+margin-right: 24px;
+}
 
 .cards-III-part-I{
   display: grid;
