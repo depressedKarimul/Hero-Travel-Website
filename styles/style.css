@@ -484,6 +484,7 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+padding-left: 20px;
 
 }
 .input-email{
@@ -524,6 +525,66 @@ background: url('../Images/Rectangle\ 8\ \(1\).png') lightgray 50% / cover no-re
   gap: 24px;
 
   margin-bottom: 100px;
+}
+.Newsletter-title{
+  font-size: 24px;
+
+font-weight: 800;
+}
+
+/* Footer style */
+footer{
+  background: rgba(19, 19, 24, 0.05);
+  padding: 110px 335px;
+}
+.footer-logo-image{
+  display: flex;
+  justify-content: center;
+}
+.footer-logo{
+  width: 40px;
+height: 46.673px;
+}
+
+.hero{
+  margin-left: 16px;
+  font-size: 32px;
+font-style: normal;
+font-weight: 800;
+}
+.title-org{
+  color: #FF5400;
+
+font-size: 32px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.footer-description{
+  text-align: center;
+  margin-bottom: 33px;
+}
+.social-icons{
+  display: flex;
+  justify-content: center;
+ 
+
+}
+.horizontal-line{
+  margin-top: 50px;
+  
+}
+.All-Rights{
+  margin-top: 50px;
+  text-align: center;
+}
+.All-Rights-desc{
+  color: #131318;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
 }
 
 
